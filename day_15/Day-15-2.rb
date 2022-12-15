@@ -19,7 +19,7 @@ end
 
 def verify_coords_other_sensors(coord, sensors)
   res = []
-  max = 4_000_000
+  max = 20
   min = 0
 
   coord.each do |c|
